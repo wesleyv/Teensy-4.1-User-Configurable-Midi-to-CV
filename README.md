@@ -17,6 +17,8 @@ And making an easily accessed USB port will be much easier with a panel-mount-to
 
 https://www.amazon.com/dp/B07FL3MKLK
 
+NOTE: I highly recommend cutting the red wire inside the USB cable so that the Teensy is not receiving power from both the plugged-in device and the midi to CV converter board. This could cause damamge to the Teensy or your USB connected device.
+
 I plan to further iterate on this project by adding trimmable slew rate limiting to to each channel to smooth out steppy midi parameter voltages. I would also like to clean up and further optimize the code, 
 as well as implementing a better solution for single-wire keyboard tracking with pitchbend to improve pitch bend resolution. I also plan to create a layout with monolithic construction instead of offboard wiring.
 ![completed](https://github.com/wesleyv/Teensy-4.1-User-Configurable-Midi-to-CV/blob/master/Photos/IMG_0591.jpg)
