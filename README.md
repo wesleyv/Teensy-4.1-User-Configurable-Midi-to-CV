@@ -19,6 +19,9 @@ https://www.amazon.com/dp/B07FL3MKLK
 
 I plan to further iterate on this project by adding trimmable slew rate limiting to to each channel to smooth out steppy midi parameter voltages. I would also like to clean up and further optimize the code, 
 as well as implementing a better solution for single-wire keyboard tracking with pitchbend to improve pitch bend resolution. I also plan to create a layout with monolithic construction instead of offboard wiring.
-![alt text]([[https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png](https://github.com/wesleyv/Teensy-4.1-User-Configurable-Midi-to-CV/blob/master/Photos/IMG_0488.jpg)](https://github.com/wesleyv/Teensy-4.1-User-Configurable-Midi-to-CV/blob/master/Photos/IMG_0488.jpg) "in progress")
+![completed](https://github.com/wesleyv/Teensy-4.1-User-Configurable-Midi-to-CV/blob/master/Photos/IMG_0591.jpg)
 
+![from back](https://github.com/wesleyv/Teensy-4.1-User-Configurable-Midi-to-CV/blob/master/Photos/IMG_0491.jpg)
+
+![in progress](https://github.com/wesleyv/Teensy-4.1-User-Configurable-Midi-to-CV/blob/master/Photos/IMG_0488.jpg)
 
