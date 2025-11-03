@@ -10,9 +10,15 @@ A video description of the device's functions can be found here:
 
 The software also contains a MIDI monitor to assist with troubleshooting, as well as a MIDI learn function for all controls, so that adjusting a parameter on your MIDI controller will automatically assign that parameter to the selected output.
 Most components are bog standard but you will need a special potentiometer for the 4 channel slew rate limiter:
+
 https://www.mouser.com/ProductDetail/Bourns/PTD904-2015K-C503?qs=%2FxQVPCMPNzjGk%2Fu1%252BtkJhQ%3D%3D&countrycode=US&currencycode=USD
+
 And making an easily accessed USB port will be much easier with a panel-mount-to-plug-in solution such as this:
+
 https://www.amazon.com/dp/B07FL3MKLK
 
 I plan to further iterate on this project by adding trimmable slew rate limiting to to each channel to smooth out steppy midi parameter voltages. I would also like to clean up and further optimize the code, 
 as well as implementing a better solution for single-wire keyboard tracking with pitchbend to improve pitch bend resolution. I also plan to create a layout with monolithic construction instead of offboard wiring.
+![alt text]([[https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png](https://github.com/wesleyv/Teensy-4.1-User-Configurable-Midi-to-CV/blob/master/Photos/IMG_0488.jpg)](https://github.com/wesleyv/Teensy-4.1-User-Configurable-Midi-to-CV/blob/master/Photos/IMG_0488.jpg) "in progress")
+
+
