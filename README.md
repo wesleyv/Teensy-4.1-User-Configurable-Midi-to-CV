@@ -1,5 +1,6 @@
 This project is loosely based on Elkayem's Teensy midi to CV Teensy project. 
-This project contains code and a PCB Layout/Schematic for a Midi to CV converter with a standard Eurorack Power connector, for use in a modular synth (+12/-12 volt supply). 
+This project contains code and a PCB Layout/Schematic for a Midi to CV converter with a standard Eurorack Power connector, for use in a modular synth (+12/-12 volt supply).
+NOTE: Unless you have lots of extra headroom on your power supply, I recommend reducing the clock speed of the Teensy 4.1 to 24mHz in order to reduce temperatures and current draw.
 This project is very DIY and should only be attempted if you have decent troubleshooting skills. I implemented all changes/corrections to my prototype into the current version uploaded here. 
 I have not, however, tested the newest version of the board. I plan to implement further refinements in the future. 
 This version of the project has 8 CV outputs that can be freely assigned to keyboard tracking or any MIDI parameter, as well as gate/trigger. There are currently also 4 outputs for gate/trigger signals only.
